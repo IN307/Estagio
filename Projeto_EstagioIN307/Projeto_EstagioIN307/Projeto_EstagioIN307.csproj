@@ -44,6 +44,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Coordenador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Coordenador.Designer.cs">
+      <DependentUpon>Coordenador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Docente.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Início.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +67,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Coordenador.resx">
+      <DependentUpon>Coordenador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Docente.resx">
+      <DependentUpon>Docente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Início.resx">
       <DependentUpon>Início.cs</DependentUpon>
     </EmbeddedResource>
