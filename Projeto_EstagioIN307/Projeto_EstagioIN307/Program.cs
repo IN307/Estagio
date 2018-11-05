@@ -16,7 +16,8 @@ namespace Projeto_EstagioIN307
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TelaInicial());
+
+            Application.Run(new TelaLogin());
         }
     }
 }
